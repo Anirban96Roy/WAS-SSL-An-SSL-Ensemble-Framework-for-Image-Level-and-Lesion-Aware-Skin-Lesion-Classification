@@ -1,0 +1,7 @@
+ensemble,image_aware_J1_test_BACC_percent,lesion_aware_N01_validation_BACC_percent
+LogisticStacking,82.99,58.11
+OptimizedWeighted,81.03,60.69
+OriginalSimCLRAnchor_NoBias,84.0,59.21
+OriginalCalStack_ClassBias,83.95,62.04
+WeightedAnchor_NoBias_alpha0.4,83.29,61.69
+WeightedAnchor_OriginalClassBias,83.43,59.95

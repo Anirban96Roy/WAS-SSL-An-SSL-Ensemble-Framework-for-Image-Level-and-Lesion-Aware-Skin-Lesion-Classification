@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this research repository and the related article when published."
+title: "WAS-SSL: Leakage-Aware Weighted-Anchor Stacking of Self-Supervised Models for Multiclass Skin Lesion Classification"
+type: software
+authors:
+  - family-names: "Roy"
+    given-names: "Anirban"
+  - family-names: "Ahsan"
+    given-names: "Sk. Md. Masudul"
+repository-code: "https://github.com/REPLACE_WITH_ACCOUNT/WAS-SSL"
+# Before renaming to CITATION.cff: confirm authorship, repository URL, release date and software license.

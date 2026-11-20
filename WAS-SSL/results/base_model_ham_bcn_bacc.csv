@@ -1,0 +1,9 @@
+model,image_HAM_BACC_percent,image_BCN_BACC_percent,lesion_HAM_BACC_percent,lesion_BCN_BACC_percent,source_notebooks
+Supervised ResNet50,77.51,80.86,68.43,46.51,J11 (5 seeds); J12 (R01 single)
+Rotation,75.14,72.05,61.62,47.02,G02-A; G02-B
+SimCLR No-TTA,76.36,81.54,67.67,44.4,G02-A; G02-B
+SimCLR Selected-TTA,77.01,80.65,,,G02-A only
+FusionConcat,77.96,77.0,64.89,46.78,G02-A; G02-B
+FusionGatedV2,75.73,78.15,68.64,44.49,G02-A; G02-B
+FusionGatedV3,73.72,75.59,66.62,45.95,G02-A; G02-B
+ResidualFusion,77.71,78.34,67.7,47.66,G02-A; G02-B
