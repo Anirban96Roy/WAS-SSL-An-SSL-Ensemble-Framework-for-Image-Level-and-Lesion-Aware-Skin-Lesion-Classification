@@ -1,0 +1,14 @@
+stage,configuration,validation_BACC_percent,J1_test_BACC_percent
+A1,Rotation SSL,75.5,73.74
+A2,SimCLR no TTA,78.78,81.07
+A3,SimCLR + Rotation mean,78.73,78.99
+A4,SimCLR selected TTA,79.33,80.59
+A5,FusionConcat,78.56,78.73
+A6,FusionGatedV2,76.38,77.22
+A7,FusionGatedV3,77.36,77.43
+A8,ResidualFusion,77.23,78.92
+A9,Optimized weighted,81.77,81.03
+A10,Raw logistic stacking,81.57,82.99
+A11,SimCLR anchor + stacking no bias,81.62,84.0
+A12,Final class-bias CalStack,82.03,83.95
+B1,DINOv2,79.14,80.43

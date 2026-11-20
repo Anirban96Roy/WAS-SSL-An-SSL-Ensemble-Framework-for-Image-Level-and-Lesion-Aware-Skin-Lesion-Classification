@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 355" role="img" aria-labelledby="t d">
+<title id="t">WAS-SSL probabilistic ensemble workflow</title>
+<desc id="d">Base model probabilities pass through development-fitted calibration, weighted averaging and logistic stacking, then a fixed .60/.40 blend yields an eight-class prediction.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif}.h{font-size:16px;font-weight:700;fill:#173049}.s{font-size:13px;fill:#52647b}.n{font-size:16px;font-weight:700;fill:white}.a{stroke:#7D91AA;stroke-width:2;fill:none;stroke-linecap:round}</style>
+<rect x="0" y="0" width="1140" height="355" rx="20" fill="#F6F9FC"/>
+<text x="32" y="40" fill="#47647D" font-size="16" font-weight="700">PROBABILITY-LEVEL ENSEMBLE · CONCEPTUAL OVERVIEW</text>
+<rect x="30" y="85" width="220" height="210" rx="14" fill="white" stroke="#BDD0E0"/>
+<text class="h" x="48" y="114">Trained base models</text><text class="s" x="48" y="146">Supervised / Rotation SSL</text><text class="s" x="48" y="169">SimCLR / Feature fusion</text><text class="s" x="48" y="192">Frozen probability outputs</text>
+<rect x="48" y="220" width="185" height="49" rx="9" fill="#E9F5F5"/><text x="68" y="241" fill="#176a71" font-size="14" font-weight="700">8-class probabilities</text><text x="68" y="260" class="s">(same class order)</text>
+<path class="a" d="M 250 190 H 310"/><path class="a" d="M 299 182 L 310 190 L 299 198"/>
+<rect x="310" y="85" width="220" height="210" rx="14" fill="white" stroke="#BDD0E0"/>
+<text x="328" y="114" class="h">Development-fitted</text><text x="328" y="138" class="h">calibration</text><text x="328" y="170" class="s">Temperatures trained on</text><text x="328" y="192" class="s">development data only</text>
+<rect x="328" y="221" width="185" height="48" rx="9" fill="#E9F5F5"/><text x="347" y="250" font-size="14" font-weight="700" fill="#176a71">Calibrated outputs</text>
+<path class="a" d="M 530 190 H 579"/>
+<path class="a" d="M 579 190 L 579 132 H 620"/><path class="a" d="M 579 190 L 579 247 H 620"/>
+<rect x="620" y="90" width="207" height="85" rx="13" fill="#E2F3F1" stroke="#7CCBC9"/><text x="638" y="120" class="h">Weighted average</text><text x="638" y="143" class="s">Development-fitted weights</text>
+<rect x="620" y="211" width="207" height="85" rx="13" fill="#E5EBF8" stroke="#8CAAE5"/><text x="638" y="241" class="h">Logistic stacker</text><text x="638" y="264" class="s">Pre-fitted meta-model</text>
+<path class="a" d="M 827 132 H 863 L 885 188"/><path class="a" d="M 827 252 H 863 L 885 200"/>
+<rect x="883" y="151" width="230" height="84" rx="15" fill="#152840"/>
+<text class="n" x="902" y="179">Frozen 60% / 40%</text><text x="902" y="201" fill="#B8F4E8" font-size="14">Weighted + stacking</text><text x="902" y="220" fill="#D5E1F0" font-size="13">8-class final prediction</text>
+<text x="31" y="330" class="s">Schematic only. Branch construction and fitted model artifacts differ between the original image-aware and N01 lesion-aware tracks.</text>
+</svg>
